@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+
+nav {
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left:auto;
+    
+}
+
+
+
+header p{
+    margin-right: 15px;
+    flex-direction: column;
+}
+.button_connexion {
+    cursor: pointer;
+    color: #fff;
+    margin: 0px 8px;
+    padding: 9px 23px;
+    text-decoration: none;
+    background: #1a73e8;
+    border: 1px solid transparent;
+}
+
+.container {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
